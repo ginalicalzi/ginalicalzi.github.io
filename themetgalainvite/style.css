@@ -1,0 +1,247 @@
+.background{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("gaga1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h2{
+	position: absolute;
+	font-family: 'Playfair Display', serif;
+	color: rgb(15, 25, 11);
+	font-size: 170px;
+	top: -122px;
+	left: 8px;
+	font-weight: 400;
+}
+
+h1{
+	position: absolute;
+	font-family: 'Playfair Display', serif;
+	color: rgb(216, 228, 211);
+	font-size: 170px;
+	top: -100px;
+	left: 15px;
+	font-weight: 400;
+}
+
+.vogue{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(216, 228, 211);
+	font-size: 30px;
+	line-height: 26px;
+	top: 30px;
+	left: 20px;
+}
+
+.met{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(216, 228, 211);
+	font-size: 40px;
+	line-height: 26px;
+	top: 100px;
+	left: 1300px;
+}
+
+.met2{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(167, 88, 110);
+	font-size: 40px;
+	line-height: 26px;
+	top: 102px;
+	left: 1297px;
+}
+
+.museum{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(216, 228, 211);
+	font-size: 44px;
+	line-height: 26px;
+	top: 140px;
+	left: 1308px;
+}
+
+.museum2{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(167, 88, 110);
+	font-size: 44px;
+	line-height: 26px;
+	top: 143px;
+	left: 1305px;
+}
+.date2{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(167, 88, 110);
+	font-size: 30px;
+	line-height: 26px;
+	top: 180px;
+	left: 1413px;
+}
+
+.date{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(216, 228, 211);
+	font-size: 30px;
+	line-height: 26px;
+	top: 180px;
+	left: 1413px;
+}
+
+.tickets2{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(167, 88, 110);
+	font-size: 30px;
+	line-height: 26px;
+	top: 215px;
+	left: 1408px;
+}
+
+.tickets{
+	position:absolute;
+	font-family: 'Rokkitt', serif;
+	color: rgb(216, 228, 211);
+	font-size: 30px;
+	line-height: 26px;
+	top: 215px;
+	left: 1408px;
+}
+
+@media (max-width: 375px) {
+	h1{
+		font-size: 6px;
+		top: -800px;
+		left: -130px;
+		width: 100vw;
+		text-align: center;
+		line-height: 50px;
+	}
+	h2{
+		font-size: 6px;
+		top: -600px;
+		left: -132px;
+		width: 100vw;
+		text-align: center;
+		line-height: 50px;
+	}
+	.background {
+		background-image: url("gaga2.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.themet2 {
+		position: absolute;
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-size: 50px;
+		top:254px;
+		left:77px;
+		color: rgb(15, 25, 11);
+	}
+	.themet {
+		position: absolute;
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-size: 50px;
+		top:250px;
+		left:80px;
+		color: rgb(216, 228, 211);
+	}
+	.gala2 {
+		position: absolute;
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-size: 80px;
+		top:310px;
+		left:77px;
+		color: rgb(15, 25, 11);
+	}
+	.gala {
+		position: absolute;
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-size: 80px;
+		top:305px;
+		left:80px;
+		color: rgb(216, 228, 211);
+	}
+	.vogue {
+		font-size: 20px;
+		top:3px;
+		left:100px;
+	}
+	.met2 {
+		font-size: 25px;
+		top:587px;
+		left:10px;
+	}
+	.met {
+		font-size: 25px;
+		top:585px;
+		left:13px;
+	}
+	.museum2 {
+		font-size: 25px;
+		top:617px;
+		left:12px;
+	}
+	.museum {
+		font-size: 25px;
+		top:615px;
+		left:15px;
+	}
+	.date2 {
+		font-size: 25px;
+		top:589px;
+		left:218px;
+	}
+	.date {
+		font-size: 25px;
+		top:587px;
+		left:220px;
+	}
+	.tickets2 {
+		font-size: 25px;
+		top:617px;
+		left:213px;
+	}
+	.tickets {
+		font-size: 25px;
+		top:615px;
+		left:215px;
+	}
+
+
+.nothing {
+		position: absolute;
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-size: 50px;
+		top:235px;
+		left:245px;
+		color: rgb(216, 228, 211);
+
+
+
+
+
+
+
+
+
+
+
+
