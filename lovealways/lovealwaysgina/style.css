@@ -1,0 +1,1934 @@
+.pinkbackground{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("pinkbg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.greybackground{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 102vw;
+	height: 260vh;
+	background-image: url("greybg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.lovealways{
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(15, 25, 11);
+	font-size: 125px;
+	top: 170px;
+	left: 250px;
+	font-weight: 400;
+}
+
+.explore{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	transition: transform .2s;
+	color: rgb(15, 25, 11);
+	font-size: 40px;
+	top: 380px;
+	left: 550px;
+	font-weight: 400;
+}
+
+.explore:hover {
+  transform: scale(1.2);
+}
+
+.friends {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 100px;
+	top: 270px;
+	left: 150px;
+	font-weight: 400;
+}
+
+.friends:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.family {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 100px;
+	top: 270px;
+	left: 550px;
+	font-weight: 400;
+}
+
+.family:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.teachers {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 100px;
+	top: 270px;
+	left: 940px;
+	font-weight: 400;
+}
+
+.teachers:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.caitlin{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 0px;
+	background-image: url("caitlin.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.caitlin:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("caitlinhover.png");
+}
+
+.ava{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 330px;
+	background-image: url("ava.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ava:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("avahover.png");
+}
+
+.mariarose{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 660px;
+	background-image: url("mariarose.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariarose:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("mariarosehover.png");
+}
+
+.jessica{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 990px;
+	background-image: url("jessica.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jessica:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("jessicahover.png");
+}
+
+.auntjoanne{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 0px;
+	background-image: url("auntjoanne.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.auntjoanne:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("auntjoannehover.png");
+}
+
+.lauren{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 330px;
+	background-image: url("lauren.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.lauren:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("laurenhover.png");
+}
+
+.grandma{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 660px;
+	background-image: url("grandma.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grandma:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("grandmahover.png");
+}
+
+.momdad{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 990px;
+	background-image: url("momdad.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.momdad:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+  background-image: url("momdadhover.png");
+}
+
+.dance{
+	position: absolute;
+	transition: transform .2s;
+	height: 350px;
+	width: 350px;
+	top: 150px;
+	left: 200px;
+	background-image: url("dancer.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.dance:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.art{
+	position: absolute;
+	transition: transform .2s;
+	height: 250px;
+	width: 250px;
+	top: 220px;
+	left: 550px;
+	background-image: url("artpalette.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.art:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.english{
+	position: absolute;
+	transition: transform .2s;
+	height: 240px;
+	width: 240px;
+	top: 230px;
+	left: 840px;
+	background-image: url("pencil.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.english:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.mslaurie {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 100px;
+	top: 270px;
+	left: 490px;
+	font-weight: 400;
+}
+
+.mslaurie:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.shmerykowsky {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 75px;
+	top: 150px;
+	left: 430px;
+	font-weight: 400;
+}
+
+.shmerykowsky:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.buccino {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 75px;
+	top: 270px;
+	left: 500px;
+	font-weight: 400;
+}
+
+.buccino:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.biondolillo {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 75px;
+	top: 390px;
+	left: 465px;
+	font-weight: 400;
+}
+
+.biondolillo:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.mrhafker {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	transition: transform .2s;
+	color: rgb(249, 205, 225);
+	font-size: 85px;
+	top: 280px;
+	left: 480px;
+	font-weight: 400;
+}
+
+.mrhafker:hover {
+  transform: scale(1.2);
+  color: rgb(225, 225, 225);
+}
+
+.caitlintitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.caitlinnote1{
+	position: absolute;
+	height: 620px;
+	width: 620px;
+	top: 40px;
+	left: 30px;
+	background-image: url("caitlinnote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.caitlinnote2{
+	position: absolute;
+	height: 475px;
+	width: 475px;
+	top: 113px;
+	left: 920px;
+	background-image: url("caitlinnote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.caitlinnote3{
+	position: absolute;
+	height: 475px;
+	width: 475px;
+	top: 113px;
+	left: 590px;
+	background-image: url("caitlinnote3.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.caitlinline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 620px;
+	left: 30px;
+}
+
+.caitlinbox{
+	height:388px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 660px;
+	left: 29px;
+}
+
+.caitlinpic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 675px;
+	left: 150px;
+	background-image: url("caitlin.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.caitlinline2{
+	height:300px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 705px;
+	left: 520px;
+}
+
+.caitlinabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 670px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.caitlinpara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 770px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.avatitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.avanote{
+	position: absolute;
+	height: 490px;
+	width: 490px;
+	top: 110px;
+	left: -25px;
+	background-image: url("avanote.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avatext1{
+	position: absolute;
+	height: 560px;
+	width: 560px;
+	top: 75px;
+	left: 430px;
+	background-image: url("avatext1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avatext2{
+	position: absolute;
+	height: 492px;
+	width: 492px;
+	top: 110px;
+	left: 963px;
+	background-image: url("avatext2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avatext3{
+	position: absolute;
+	height: 380px;
+	width: 380px;
+	top: 620px;
+	left: 0px;
+	background-image: url("avatext3.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avatext4{
+	position: absolute;
+	height: 380px;
+	width: 380px;
+	top: 620px;
+	left: 340px;
+	background-image: url("avatext4.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avatext5{
+	position: absolute;
+	height: 380px;
+	width: 380px;
+	top: 620px;
+	left: 695px;
+	background-image: url("avatext5.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avatext6{
+	position: absolute;
+	height: 380px;
+	width: 380px;
+	top: 620px;
+	left: 1055px;
+	background-image: url("avatext6.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avaline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1035px;
+	left: 30px;
+}
+
+.avabox{
+	height:435px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 1080px;
+	left: 29px;
+}
+
+.avapic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 1120px;
+	left: 150px;
+	background-image: url("ava.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.avaline2{
+	height:300px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1148px;
+	left: 520px;
+}
+
+.avaabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 1090px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.avapara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 1190px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.mariarosetitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.mariarosenote{
+	position: absolute;
+	height: 470px;
+	width: 470px;
+	top: 120px;
+	left: -50px;
+	background-image: url("mariarosenote.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariarosetext1{
+	position: absolute;
+	height: 623px;
+	width: 623px;
+	top: 44px;
+	left: 363px;
+	background-image: url("mariarosetext1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariarosetext2{
+	position: absolute;
+	height: 470px;
+	width: 470px;
+	top: 120px;
+	left: 968px;
+	background-image: url("mariarosetext2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariarosetext3{
+	position: absolute;
+	height: 623px;
+	width: 623px;
+	top: 590px;
+	left: 24px;
+	background-image: url("mariarosetext3.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariarosetext4{
+	position: absolute;
+	height: 430px;
+	width: 430px;
+	top: 452px;
+	left: 662px;
+	background-image: url("mariarosetext4.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariarosetext5{
+	position: absolute;
+	height: 452px;
+	width: 452px;
+	top: 743px;
+	left: 650px;
+	background-image: url("mariarosetext5.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariaroseline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1230px;
+	left: 25px;
+}
+
+.mariarosebox{
+	height:485px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 1275px;
+	left: 29px;
+}
+
+.mariarosepic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 1340px;
+	left: 150px;
+	background-image: url("mariarose.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mariaroseline2{
+	height:390px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1327px;
+	left: 520px;
+}
+
+.mariaroseabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 1285px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.mariarosepara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 1385px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.jessicatitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 35px;
+	left: 40px;
+	font-weight: 400;
+}
+
+.jessicanote1{
+	position: absolute;
+	height: 530px;
+	width: 530px;
+	top: 100px;
+	left: 30px;
+	background-image: url("jessicanote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jessicanote2{
+	position: absolute;
+	height: 530px;
+	width: 530px;
+	top: 100px;
+	left: 580px;
+	background-image: url("jessicanote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jessicaline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 607px;
+	left: 30px;
+}
+
+.jessicabox{
+	height:465px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 650px;
+	left: 29px;
+}
+
+.jessicapic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 710px;
+	left: 150px;
+	background-image: url("jessica.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jessicaline2{
+	height:355px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 705px;
+	left: 520px;
+}
+
+.jessicaabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 660px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.jessicapara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 780px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.auntjoannetitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.auntjoannenote1{
+	position: absolute;
+	height: 450px;
+	width: 450px;
+	top: 125px;
+	left: -45px;
+	background-image: url("auntjoannenote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.auntjoannenote2{
+	position: absolute;
+	height: 450px;
+	width: 450px;
+	top: 125px;
+	left: 300px;
+	background-image: url("auntjoannenote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.auntjoannenote3{
+	position: absolute;
+	height: 560px;
+	width: 560px;
+	top: 70px;
+	left: 715px;
+	background-image: url("auntjoannenote3.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.auntjoanneline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 610px;
+	left: 30px;
+}
+
+.auntjoannebox{
+	height:365px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 660px;
+	left: 29px;
+}
+
+.auntjoannepic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 665px;
+	left: 150px;
+	background-image: url("auntjoanne.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.auntjoanneline2{
+	height:240px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 730px;
+	left: 520px;
+}
+
+.auntjoanneabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 685px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.auntjoannepara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 795px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.laurentitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.laurennote{
+	position: absolute;
+	height: 525px;
+	width: 525px;
+	top: 90px;
+	left: 35px;
+	background-image: url("laurennote.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext1{
+	position: absolute;
+	height: 437px;
+	width: 437px;
+	top: 134px;
+	left: 555px;
+	background-image: url("laurentext1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext2{
+	position: absolute;
+	height: 437px;
+	width: 437px;
+	top: 134px;
+	left: 975px;
+	background-image: url("laurentext2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext3{
+	position: absolute;
+	height: 525px;
+	width: 525px;
+	top: 585px;
+	left: -2px;
+	background-image: url("laurentext3.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext4{
+	position: absolute;
+	height: 455px;
+	width: 455px;
+	top: 548px;
+	left: 500px;
+	background-image: url("laurentext4.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext5{
+	position: absolute;
+	height: 450px;
+	width: 455px;
+	top: 818px;
+	left: 500px;
+	background-image: url("laurentext5.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext6{
+	position: absolute;
+	height: 297px;
+	width: 297px;
+	top: 586px;
+	left: 1165px;
+	background-image: url("laurentext6.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext7{
+	position: absolute;
+	height: 297px;
+	width: 297px;
+	top: 586px;
+	left: 943px;
+	background-image: url("laurentext7.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurentext8{
+	position: absolute;
+	height: 426px;
+	width: 426px;
+	top: 790px;
+	left: 972px;
+	background-image: url("laurentext8.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurenline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1150px;
+	left: 30px;
+}
+
+.laurenbox{
+	height:345px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 1200px;
+	left: 29px;
+}
+
+.laurenpic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 1195px;
+	left: 150px;
+	background-image: url("lauren.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.laurenline2{
+	height:230px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1255px;
+	left: 520px;
+}
+
+.laurenabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 1210px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.laurenpara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 1310px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.grandmatitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+
+.grandmanote2{
+	position: absolute;
+	height: 465px;
+	width: 465px;
+	top: 80px;
+	left: 30px;
+	background-image: url("grandmanote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grandmanote1{
+	position: absolute;
+	height: 428px;
+	width: 428px;
+	top: 98px;
+	left: 515px;
+	background-image: url("grandmanote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grandmanote3{
+	position: absolute;
+	height: 469px;
+	width: 469px;
+	top: 77px;
+	left: 963px;
+	background-image: url("grandmanote3.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grandmanote4{
+	position: absolute;
+	height: 532px;
+	width: 532px;
+	top: 497px;
+	left: -53px;
+	background-image: url("grandmanote4.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grandmanote5{
+	position: absolute;
+	height: 700px;
+	width: 700px;
+	top: 414px;
+	left: 415px;
+	background-image: url("grandmanote5.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grandmaline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1070px;
+	left: 30px;
+}
+
+.grandmabox{
+	height:410px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 1110px;
+	left: 29px;
+}
+
+.grandmapic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 1135px;
+	left: 150px;
+	background-image: url("grandma.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.grandmaline2{
+	height:300px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1155px;
+	left: 520px;
+}
+
+.grandmaabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 1120px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.grandmapara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 1240px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+.momdadtitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.momdadnote1{
+	position: absolute;
+	height: 420px;
+	width: 420px;
+	top: 135px;
+	left: -30px;
+	background-image: url("momdadnote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.momdadnote2{
+	position: absolute;
+	height: 556px;
+	width: 556px;
+	top: 67px;
+	left: 340px;
+	background-image: url("momdadnote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.dadtext1{
+	position: absolute;
+	height: 420px;
+	width: 420px;
+	top: 135px;
+	left: 810px;
+	background-image: url("dadtext1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.dadtext2{
+	position: absolute;
+	height: 420px;
+	width: 420px;
+	top: 135px;
+	left: 1040px;
+	background-image: url("dadtext2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.momdadline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 605px;
+	left: 30px;
+}
+
+.momdadbox{
+	height:340px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 660px;
+	left: 29px;
+}
+
+.momdadpic2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 655px;
+	left: 150px;
+	background-image: url("momdad.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.momdadline2{
+	height:200px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 730px;
+	left: 520px;
+}
+
+.momdadabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 680px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.momdadpara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 780px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.mslaurietitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.mslaurienote1{
+	position: absolute;
+	height: 440px;
+	width: 440px;
+	top: 125px;
+	left: -30px;
+	background-image: url("mslaurienote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mslaurienote2{
+	position: absolute;
+	height: 440px;
+	width: 440px;
+	top: 125px;
+	left: 300px;
+	background-image: url("mslaurienote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mslaurieline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 610px;
+	left: 30px;
+}
+
+.mslauriebox{
+	height:340px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 660px;
+	left: 29px;
+}
+
+.mslauriepic{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 655px;
+	left: 150px;
+	background-image: url("dance.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mslaurieline2{
+	height:200px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 730px;
+	left: 520px;
+}
+
+.mslaurieabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 680px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.mslauriepara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 780px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.shmerykowskytitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.shmerykowskynote1{
+	position: absolute;
+	height: 390px;
+	width: 390px;
+	top: 125px;
+	left: 20px;
+	background-image: url("shmerykowskynote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.shmerykowskynote2{
+	position: absolute;
+	height: 844px;
+	width: 844px;
+	top: -102px;
+	left: 415px;
+	background-image: url("shmerykowskynote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.shmerykowskynote3{
+	position: absolute;
+	height: 450px;
+	width: 450px;
+	top: 480px;
+	left: 35px;
+	background-image: url("shmerykowskynote3.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.shmerykowskynote4{
+	position: absolute;
+	height: 410px;
+	width: 410px;
+	top: 500px;
+	left: 505px;
+	background-image: url("shmerykowskynote4.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.shmerykowskyline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 910px;
+	left: 30px;
+}
+
+.shmerykowskybox{
+	height:580px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 960px;
+	left: 29px;
+}
+
+.shmerykowskypic{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 1070px;
+	left: 150px;
+	background-image: url("sfp.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.shmerykowskyline2{
+	height:425px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 1040px;
+	left: 520px;
+}
+
+.shmerykowskyabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 980px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.shmerykowskypara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 1080px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.buccinotitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.buccinonote{
+	position: absolute;
+	height: 700px;
+	width: 700px;
+	top: -40px;
+	left: 30px;
+	background-image: url("buccinonote.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.buccinoline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 535px;
+	left: 30px;
+}
+
+.buccinobox{
+	height:390px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 585px;
+	left: 29px;
+}
+
+.buccinopic{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 605px;
+	left: 150px;
+	background-image: url("sfp.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.buccinoline2{
+	height:250px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 665px;
+	left: 520px;
+}
+
+.buccinoabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 605px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.buccinopara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 705px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+.biondolillotitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.biondolillonote{
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: 95px;
+	left: 25px;
+	background-image: url("biondolillonote.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.biondolilloline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 610px;
+	left: 30px;
+}
+
+.biondolillobox{
+	height:390px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 660px;
+	left: 29px;
+}
+
+.biondolillopic{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 680px;
+	left: 150px;
+	background-image: url("sfp.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.biondolilloline2{
+	height:265px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 735px;
+	left: 520px;
+}
+
+.biondolilloabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 680px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.biondolillopara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 780px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+
+.hafkertitle {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(249, 205, 225);
+	font-size: 70px;
+	top: 20px;
+	left: 35px;
+	font-weight: 400;
+}
+
+.hafkernote1{
+	position: absolute;
+	height: 490px;
+	width: 490px;
+	top: 125px;
+	left: -85px;
+	background-image: url("hafkernote1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.hafkernote2{
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: 120px;
+	left: 320px;
+	background-image: url("hafkernote2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.littleportion1{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 125px;
+	left: 800px;
+	background-image: url("littleportion1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.littleportion2{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 125px;
+	left: 1095px;
+	background-image: url("littleportion2.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hafkerline{
+	height:7px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 650px;
+	left: 30px;
+}
+
+.hafkerbox{
+	height:340px;
+	width:1375px;
+	position: absolute;
+	background-color: rgb(249, 205, 225);
+	opacity: 80%;
+	top: 700px;
+	left: 29px;
+}
+
+.hafkerpic{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	top: 695px;
+	left: 150px;
+	background-image: url("sfp.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hafkerline2{
+	height:200px;
+	width:7px;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	top: 775px;
+	left: 520px;
+}
+
+.hafkerabout {
+	position: absolute;
+	font-family: 'Parisienne', cursive;
+	color: rgb(35, 31, 32);
+	font-size: 70px;
+	top: 720px;
+	left: 580px;
+	font-weight: 400;
+}
+
+.hafkerpara{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(35, 31, 32);
+	font-size: 16px;
+	top: 820px;
+	left: 580px;
+	font-weight: 400;
+	width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
