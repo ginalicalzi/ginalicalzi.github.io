@@ -59,36 +59,69 @@ body {
 
 @keyframes swapImage {
   0% {
-    background-image: url(1.png);
+    background-image: url(revised_1.png);
+  }
+  5% {
+    background-image: url(revised_2.png);
   }
   10% {
-    background-image: url(2.png);
+    background-image: url(revised_3.png);
   }
   20% {
-    background-image: url(3.png);
+    background-image: url(revised_4.png);
   }  
   30% {
-    background-image: url(4.png);
+    background-image: url(revised_5.png);
   }  
   40% {
-    background-image: url(5.png);
+    background-image: url(revised_6.png);
   }  
   50% {
-    background-image: url(6.png);
+    background-image: url(revised_7.png);
   }
   60% {
-    background-image: url(7.png);
+    background-image: url(revised_8.png);
   }
   70% {
-    background-image: url(8.png);
+    background-image: url(revised_9.png);
   }  
   80% {
-    background-image: url(9.png);
+    background-image: url(revised_10.png);
   }  
   90% {
-    background-image: url(10.png);
+    background-image: url(revised_11.png);
   }  
   100% {
-    background-image: url(11.png);
+    background-image: url(revised_12.png);
   }    
+}
+
+.hour.alarm {
+  background-color: transparent;
+  animation-name: spinAlarm; 
+}
+
+.minute.alarm {
+  background-color: transparent; 
+  animation-name: spinAlarm;
+}
+
+.second.alarm {
+  background-color: transparent; 
+  animation-name: spinAlarm;
+}
+
+@keyframes spinAlarm {
+  0% {
+    transform: rotate(90deg) scale(1);
+    background-color: rgb(140, 6, 61);
+  }
+  50% {
+    transform: rotate(180deg) scale(2);
+    background-color: rgb(109, 7, 53);  
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    background-color: rgb(68, 4, 33);
+  }
 }
