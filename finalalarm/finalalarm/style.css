@@ -1,0 +1,127 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.hour {
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(1.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;  
+}
+
+.minute {
+  position: absolute;
+  top: 10vw;
+  left: 40vw;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  background-image: url(1.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  animation-name: swapImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;  
+}
+
+.second {
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;  
+  background-image: url(1.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes swapImage {
+  0% {
+    background-image: url(revised_1.png);
+  }
+  5% {
+    background-image: url(revised_2.png);
+  }
+  10% {
+    background-image: url(revised_3.png);
+  }
+  20% {
+    background-image: url(revised_4.png);
+  }  
+  30% {
+    background-image: url(revised_5.png);
+  }  
+  40% {
+    background-image: url(revised_6.png);
+  }  
+  50% {
+    background-image: url(revised_7.png);
+  }
+  60% {
+    background-image: url(revised_8.png);
+  }
+  70% {
+    background-image: url(revised_9.png);
+  }  
+  80% {
+    background-image: url(revised_10.png);
+  }  
+  90% {
+    background-image: url(revised_11.png);
+  }  
+  100% {
+    background-image: url(revised_12.png);
+  }    
+}
+
+.hour.alarm {
+  background-color: transparent;
+  animation-name: spinAlarm; 
+}
+
+.minute.alarm {
+  background-color: transparent; 
+  animation-name: spinAlarm;
+}
+
+.second.alarm {
+  background-color: transparent; 
+  animation-name: spinAlarm;
+}
+
+@keyframes spinAlarm {
+  0% {
+    transform: rotate(90deg) scale(1);
+    background-color: rgb(140, 6, 61);
+  }
+  50% {
+    transform: rotate(180deg) scale(2);
+    background-color: rgb(109, 7, 53);  
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    background-color: rgb(68, 4, 33);
+  }
+}
