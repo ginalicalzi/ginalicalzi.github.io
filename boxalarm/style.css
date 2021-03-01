@@ -1,0 +1,161 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: rgb(23, 25, 66);
+}
+
+.hour {
+  position: absolute;
+  top: 16vw;
+  left: 23vw;
+  width: 13vw;
+  height: 13vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(revised_1.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;  
+}
+
+.minute {
+  position: absolute;
+  top: 22vw;
+  left: 36vw;
+  width: 17vw;
+  height: 17vw;
+  transform: rotate(90deg);
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  background-image: url(revised_1.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  animation-name: swapImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;  
+}
+
+.second {
+  position: absolute;
+  top: 7vw;
+  left: 48vw;
+  width: 22vw;
+  height: 22vw;
+  transform: rotate(180deg);
+  margin-left: auto;
+  margin-right: auto;  
+  background-image: url(revised_1.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+}
+
+.reset {
+  position: absolute;
+  top: 50px;
+  left: 1250px;
+  width: 150px;
+  height: 50px;
+  border-radius: 0px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-family: Futura;
+  opacity: 0;
+}
+
+@keyframes swapImage {
+  0% {
+    background-image: url(revised_1.png);
+  }
+  5% {
+    background-image: url(revised_2.png);
+  }
+  10% {
+    background-image: url(revised_3.png);
+  }
+  20% {
+    background-image: url(revised_4.png);
+  }  
+  30% {
+    background-image: url(revised_5.png);
+  }  
+  40% {
+    background-image: url(revised_6.png);
+  }  
+  50% {
+    background-image: url(revised_7.png);
+  }
+  60% {
+    background-image: url(revised_8.png);
+  }
+  70% {
+    background-image: url(revised_9.png);
+  }  
+  80% {
+    background-image: url(revised_10.png);
+  }  
+  90% {
+    background-image: url(revised_11.png);
+  }  
+  100% {
+    background-image: url(revised_12.png);
+  }    
+}
+
+body.alarm {
+  animation-name: bgAlarm; 
+  animation-duration: 20s;
+}
+
+.hour.alarm {
+  animation-name: scaleAlarm;
+  animation-duration: 20s;
+}
+
+.minute.alarm {
+  animation-name: scaleAlarm;
+  animation-duration: 20s;
+}
+
+.second.alarm {
+  animation-name: scaleAlarm;
+  animation-duration: 20s;
+}
+
+.reset.alarm {
+   opacity: 1;
+}
+
+@keyframes bgAlarm {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  50% {  
+    background-color: rgb(222, 108, 154);
+  }
+  100% {
+    background-color: rgb(170, 17, 95);
+  }
+
+@keyframes scaleAlarm {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  50% {  
+    background-color: rgb(255, 255, 255);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
